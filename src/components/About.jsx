@@ -46,13 +46,15 @@ const About = () => {
         .Highly skilled in HTML5, CSS3, Bootstrap , TailwindCSS , Javascript ,
         Typescript , React js .
       </motion.p>
-      <div className="mt-20 flex flex-wrap gap-10 justify-center">
+      <div className="mt-20 flex flex-wrap gap-10 justify-center pb-20">
         {services.map((service, index) => (
           <>
             <ServiceCard key={service.title} index={index} {...service} />
           </>
         ))}
       </div>
+      <p className={styles.sectionSubText}>My Skills</p>
+      <h2 className={`${styles.sectionHeadText} pb-4`}>technologies.</h2>
     </>
   );
 };

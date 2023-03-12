@@ -92,7 +92,7 @@ const Works = () => {
           creating react responsive websites.
         </motion.p>
       </div>
-      <div className="flex mt-20 gap-7 flex-wrap mb-24">
+      <div className="flex mt-20 gap-7 flex-wrap mb-24 justify-center">
         {projects.map((project, index) => (
           <>
             <ProjectCard key={`project-${index}`} index={index} {...project} />
