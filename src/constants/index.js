@@ -16,6 +16,12 @@ import {
   jobit,
   tripguide,
   threejs,
+  gym1,
+  gym2,
+  gpt3,
+  ticketBooking,
+  ecommerce1,
+  ecommerce2,
 } from "../assets";
 
 export const navLinks = [
@@ -90,16 +96,16 @@ const technologies = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "E-Commerce",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "react responsive e-commerce website allow users to add items to card ,delete items and purchase for them ,the website is protected by authorization and connected to firebase so to sign in you have to create new account or simply type abc222@gmail.com for username and 123456 for password.", 
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
@@ -107,41 +113,22 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: ecommerce1,
+    source_code_link: "https://github.com/MohamedAshraf2222/React-Ecommerce-website",
+    live_demo_link: "https://react-ecommerce-website-orcin.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "Around the world",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
+    "react airplane ticket booking website allow users to login , register ,logout. the website is protected by authorization and connected to firebase so to sign in you have to create new account or simply type abc222@gmail.com for username and 123456 for password.",
+    
+      tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
@@ -149,9 +136,98 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: ticketBooking,
+    source_code_link: "https://github.com/MohamedAshraf2222/React-flight-ticket-booking-site",
+    live_demo_link: "https://react-flight-ticket-booking-site.vercel.app/",
   },
+  {
+    name: "GPT-3",
+    description:
+    "react responsive scientific website with amazing features, modern design.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: gpt3,
+    source_code_link: "https://github.com/MohamedAshraf2222/React-Responsive-Modren-Website",
+    live_demo_link: "https://react-responsive-modren-website.vercel.app/",
+
+  },
+  {
+    name: "GYM",
+    description:
+      "GYM website with great design made by native html and css .",
+      tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+    ],
+    image: gym1,
+    source_code_link: "https://github.com/MohamedAshraf2222/Gym-Website",
+    live_demo_link: "https://gym-website-nine.vercel.app/",
+
+  },
+  {
+    name: "Fitbody",
+    description:
+    "react responsive GYM website with animated components and amazing features with great design.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: gym2,
+    source_code_link: "https://github.com/MohamedAshraf2222/React-Responsive-GYM-Website",
+    live_demo_link: "https://react-responsive-gym-website.vercel.app/",
+
+  },
+  {
+    name: "Amazon",
+    description:
+    "react responsive ecommerce website with animated components and amazing features.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ecommerce2,
+    source_code_link: "https://github.com/MohamedAshraf2222/responsive-ecommerce-webpage",
+    live_demo_link: "https://responsive-ecommerce-webpage.vercel.app/",
+  },
+  
 ];
 
 export { services, technologies, projects };

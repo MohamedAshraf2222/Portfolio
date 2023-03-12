@@ -32,6 +32,13 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import gym1 from "./gym-01.png";
+import gym2 from "./gym-02.png";
+import gpt3 from "./gpt-3.png";
+import ticketBooking from "./ticket-booking.png";
+import ecommerce1 from "./ecommerce.png";
+import ecommerce2 from "./ecommerce-webpage.png";
+
 export {
   logo,
   logo2,
@@ -62,4 +69,10 @@ export {
   carrent,
   jobit,
   tripguide,
+  gym1,
+  gym2,
+  gpt3,
+  ticketBooking,
+  ecommerce1,
+  ecommerce2,
 };
