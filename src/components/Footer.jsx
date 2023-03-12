@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-tertiary w-full py-4 flex flex-col gap-4 justify-center items-center font-normal text-[12px] text-secondary">
+    <footer className="bg-tertiary w-full py-4 flex flex-col text-center gap-4 justify-center items-center font-normal text-[12px] text-secondary">
       <div className="flex gap-2">
         <ImLinkedin
           onClick={() =>
