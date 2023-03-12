@@ -8,7 +8,6 @@ import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
 import { BsBoxArrowUpRight } from "react-icons/bs";
-import { Link } from "react-router-dom";
 const ProjectCard = ({
   index,
   name,
