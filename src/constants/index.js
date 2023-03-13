@@ -1,20 +1,15 @@
 import {
   mobile,
   backend,
-  creator,
   web,
   javascript,
   typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   git,
   figma,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   gym1,
   gym2,
@@ -22,6 +17,7 @@ import {
   ticketBooking,
   ecommerce1,
   ecommerce2,
+  recipes
 } from "../assets";
 
 export const navLinks = [
@@ -224,6 +220,28 @@ const projects = [
       },
     ],
     image: ecommerce2,
+    source_code_link: "https://github.com/MohamedAshraf2222/responsive-ecommerce-webpage",
+    live_demo_link: "https://responsive-ecommerce-webpage.vercel.app/",
+  },
+  {
+    name: "Recipes",
+    description:
+    "react Recipes website with great design , multiple pages with react routing.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: recipes,
     source_code_link: "https://github.com/MohamedAshraf2222/responsive-ecommerce-webpage",
     live_demo_link: "https://responsive-ecommerce-webpage.vercel.app/",
   },

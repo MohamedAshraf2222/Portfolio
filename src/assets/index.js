@@ -38,6 +38,7 @@ import gpt3 from "./gpt-3.png";
 import ticketBooking from "./ticket-booking.png";
 import ecommerce1 from "./ecommerce.png";
 import ecommerce2 from "./ecommerce-webpage.png";
+import recipes from "./recipes.png";
 
 export {
   logo,
@@ -75,4 +76,5 @@ export {
   ticketBooking,
   ecommerce1,
   ecommerce2,
+  recipes,
 };
