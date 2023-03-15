@@ -19,7 +19,7 @@ const ProjectCard = ({
 }) => {
   return (
     <>
-      <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+      {/* <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}> */}
         <div
           // options={{
           //   max: 45,
@@ -68,7 +68,7 @@ const ProjectCard = ({
             </div>
           </div>
         </div>
-      </motion.div>
+      {/* </motion.div> */}
     </>
   );
 };
@@ -76,12 +76,12 @@ const ProjectCard = ({
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      <div variants={textVariant()}>
         <p className={styles.sectionSubText}>My work</p>
         <h2 className={styles.sectionHeadText}>Projects .</h2>
-      </motion.div>
+      </div>
       <div className="flex w-full">
-        <motion.p
+        <p
           variants={fadeIn("", "", 0.1, 1)}
           className={"mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"}
         >
@@ -89,7 +89,7 @@ const Works = () => {
           of my work. Each project is briefly described with links to code
           repositories on github and live demos in it. It reflects my ability to
           creating react responsive websites.
-        </motion.p>
+        </p>
       </div>
       <div className="flex mt-20 gap-7 flex-wrap mb-24 justify-center">
         {projects.map((project, index) => (
