@@ -115,6 +115,13 @@
 }
 
 /* canvas- styles */
+.aaa>:nth-child(2){
+  z-index: -1;
+}
+.works-hover:hover{
+  transform: scale(1.05);
+  transition-duration: .5s ;
+}
 .canvas-loader {
   font-size: 10px;
   width: 1em;

@@ -44,7 +44,7 @@ const About = () => {
         I'm skilled Frontend Developer with 2-year experience building stable
         resbonsive react websites in fast-based and collaborative environment
         .Highly skilled in HTML5, CSS3, Bootstrap , TailwindCSS , Javascript ,
-        Typescript , React js .
+        Typescript , React js ,figma .
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10 justify-center pb-20">
         {services.map((service, index) => (
@@ -53,8 +53,8 @@ const About = () => {
           </>
         ))}
       </div>
-      <p className={styles.sectionSubText}>My Skills</p>
-      <h2 className={`${styles.sectionHeadText} pb-4`}>technologies.</h2>
+      {/* <p className={styles.sectionSubText}>My Skills</p>
+      <h2 className={`${styles.sectionHeadText} pb-4`}>technologies.</h2> */}
     </>
   );
 };

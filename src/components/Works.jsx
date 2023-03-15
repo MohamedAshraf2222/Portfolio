@@ -20,13 +20,13 @@ const ProjectCard = ({
   return (
     <>
       <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-        <Tilt
-          options={{
-            max: 45,
-            scale: 1,
-            speed: 450,
-          }}
-          className={"bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full h-full flex justify-between flex-col"}
+        <div
+          // options={{
+          //   max: 45,
+          //   scale: 1,
+          //   speed: 450,
+          // }}
+          className={"bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full h-full flex justify-between flex-col works-hover"}
         >
           <div className="">
 
@@ -67,7 +67,7 @@ const ProjectCard = ({
                 <BsBoxArrowUpRight onClick={() => window.open(live_demo_link, "_blank")}/>
             </div>
           </div>
-        </Tilt>
+        </div>
       </motion.div>
     </>
   );

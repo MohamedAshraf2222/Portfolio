@@ -6,7 +6,7 @@ import { MotionConfig, motion } from "framer-motion";
 const Hero = () => {
   return (
     <>
-      <div className="relative mx-auto w-full h-screen">
+      <div className="relative mx-auto w-full h-screen aaa">
         <div
           className={`${styles.paddingX}
           absolute inset-0 top-[120px] 
