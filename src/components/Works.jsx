@@ -20,20 +20,21 @@ const ProjectCard = ({
   return (
     <>
       {/* <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}> */}
-        <div
-          // options={{
-          //   max: 45,
-          //   scale: 1,
-          //   speed: 450,
-          // }}
-          className={"bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full h-full flex justify-between flex-col works-hover"}
-        >
-          <div className="">
-
+      <div
+        // options={{
+        //   max: 45,
+        //   scale: 1,
+        //   speed: 450,
+        // }}
+        className={
+          "bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full h-auto flex justify-between flex-col works-hover"
+        }
+      >
+        <div className="">
           <div className="relative w-full h-[230px]">
             <img
               src={image}
-              alt={image}
+              alt={"image"}
               className={"w-full h-full object-cover rounded-2xl"}
             />
             <div className="absolute inset-0 flex justify-end m-2 card-img_hover">
@@ -53,21 +54,23 @@ const ProjectCard = ({
             <h3 className="text-white font-bold text-[24px]">{name}</h3>
             <p className="text-secondary text-[14px] mt-2 ">{description}</p>
           </div>
-          </div>
+        </div>
 
-          <div className="flex justify-between items-center">
-            <div className="mt-4 flex flex-wrap gap-2">
-              {tags.map((tag, index) => (
-                <p key={tag.name} className={`text-[14px] ${tag.color}`}>
-                  #{tag.name}
-                </p>
-              ))}
-            </div>
-            <div className="cursor-pointer">
-                <BsBoxArrowUpRight onClick={() => window.open(live_demo_link, "_blank")}/>
-            </div>
+        <div className="flex justify-between items-center">
+          <div className="mt-4 flex flex-wrap gap-2">
+            {tags.map((tag, index) => (
+              <p key={tag.name} className={`text-[14px] ${tag.color}`}>
+                #{tag.name}
+              </p>
+            ))}
+          </div>
+          <div className="cursor-pointer">
+            <BsBoxArrowUpRight
+              onClick={() => window.open(live_demo_link, "_blank")}
+            />
           </div>
         </div>
+      </div>
       {/* </motion.div> */}
     </>
   );
