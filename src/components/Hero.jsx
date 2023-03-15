@@ -11,7 +11,7 @@ const Hero = () => {
           className={`${styles.paddingX}
           absolute inset-0 top-[120px] 
           max-w-7xl flex flex-row
-          items-start gap-5 mx-auto
+          items-start gap-5 mx-auto z-[1]
       `}
         >
           <div className="flex flex-col justify-center items-center mt-5">
