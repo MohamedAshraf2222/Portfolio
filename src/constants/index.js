@@ -243,7 +243,7 @@ const projects = [
     ],
     image: recipes,
     source_code_link: "https://github.com/MohamedAshraf2222/responsive-ecommerce-webpage",
-    live_demo_link: "https://responsive-ecommerce-webpage.vercel.app/",
+    live_demo_link: "https://recipes-website-tau.vercel.app/",
   },
   
 ];
