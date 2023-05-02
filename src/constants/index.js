@@ -17,7 +17,8 @@ import {
   ticketBooking,
   ecommerce1,
   ecommerce2,
-  recipes
+  recipes,
+  landing
 } from "../assets";
 
 export const navLinks = [
@@ -245,7 +246,28 @@ const projects = [
     source_code_link: "https://github.com/MohamedAshraf2222/responsive-ecommerce-webpage",
     live_demo_link: "https://recipes-website-tau.vercel.app/",
   },
-  
+    {
+    name: "Landing Page",
+    description:
+    "React Landing page with great design.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: landing,
+    source_code_link: "https://github.com/MohamedAshraf2222/landing-page",
+    live_demo_link: "https://landing-page-mauve-sigma.vercel.app/",
+  },  
 ];
 
 export { services, technologies, projects };
