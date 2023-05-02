@@ -78,4 +78,5 @@ export {
   ecommerce1,
   ecommerce2,
   recipes,
+  landing,
 };
