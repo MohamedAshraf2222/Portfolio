@@ -17,7 +17,9 @@ import {
   ticketBooking,
   ecommerce1,
   ecommerce2,
-  recipes
+  recipes,
+  landing,
+  dpeProject,
 } from "../assets";
 
 export const navLinks = [
@@ -243,9 +245,52 @@ const projects = [
     ],
     image: recipes,
     source_code_link: "https://github.com/MohamedAshraf2222/responsive-ecommerce-webpage",
-    live_demo_link: "https://responsive-ecommerce-webpage.vercel.app/",
+    live_demo_link: "https://recipes-website-tau.vercel.app/",
   },
-  
+    {
+    name: "Landing Page",
+    description:
+    "React Landing page with great design.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: landing,
+    source_code_link: "https://github.com/MohamedAshraf2222/landing-page",
+    live_demo_link: "https://landing-page-mauve-sigma.vercel.app/",
+  },  
+    {
+    name: "Minimal Shopping",
+    description:
+    "React Minimal Shopping E-commerce application , using Api , Routing .",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: dpeProject,
+    source_code_link: "https://github.com/MohamedAshraf2222/DPE-Graduation-Project",
+    live_demo_link: "https://minimal-shopping-e-commerce.vercel.app/",
+  },  
 ];
 
 export { services, technologies, projects };
