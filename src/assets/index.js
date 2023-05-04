@@ -39,6 +39,8 @@ import ticketBooking from "./ticket-booking.png";
 import ecommerce1 from "./ecommerce.png";
 import ecommerce2 from "./ecommerce-webpage.png";
 import recipes from "./recipes.png";
+import landing from "./landing.png";
+import dpeProject from "./dpe-project.png";
 
 export {
   logo,
@@ -77,4 +79,6 @@ export {
   ecommerce1,
   ecommerce2,
   recipes,
+  landing,
+  dpeProject
 };
