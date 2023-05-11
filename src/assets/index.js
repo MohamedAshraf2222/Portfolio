@@ -42,6 +42,12 @@ import recipes from "./recipes.png";
 import landing from "./landing.png";
 import dpeProject from "./dpe-project.png";
 
+import movies from "./movies.png";
+import resturantMenu from "./resturantMenu.png";
+import questionAnswer from "./questionAnswer.png";
+import datesReminder from "./datesReminder.png";
+
+
 export {
   logo,
   logo2,
@@ -80,5 +86,9 @@ export {
   ecommerce2,
   recipes,
   landing,
-  dpeProject
+  dpeProject,
+  movies,
+  datesReminder,
+  questionAnswer,
+  resturantMenu,
 };
